@@ -1,0 +1,12 @@
+{
+  "name": "premium-tictactoe",
+  "version": "1.0.0",
+  "description": "Premium Tic-Tac-Toe game with glass UI, sound effects, and AI opponent",
+  "keywords": ["tictactoe", "game", "ai", "responsive"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tictactoe.git"
+  }
+}

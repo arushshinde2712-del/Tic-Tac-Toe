@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium Tic-Tac-Toe game with glass UI, sound effects, and AI opponent" />
+  <meta name="og:title" content="Premium Tic-Tac-Toe" />
+  <meta name="og:description" content="Beautiful, modern Tic-Tac-Toe with responsive design and smart CPU" />
+  <title>Premium Tic-Tac-Toe | Play Now</title>
+  <style>
+    :root { --accent: #7c5cff; --accent-2: #3fe0c6; --muted: #9aa7b2; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1724; color: #e6eef6; }
+    .landing { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center; }
+    .hero { max-width: 900px; margin-bottom: 3rem; }
+    .hero h1 { font-size: clamp(2rem, 8vw, 3.5rem); font-weight: 800; margin-bottom: 0.5rem; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 1.1rem; color: var(--muted); margin-bottom: 2rem; }
+    .cta { display: inline-flex; gap: 1rem; }
+    .btn { padding: 0.75rem 2rem; border: none; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+    .btn-play { background: linear-gradient(135deg, var(--accent), #6a4bff)); color: white; }
+    .btn-play:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(124, 92, 255, 0.4); }
+    .btn-github { background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid rgba(255, 255, 255, 0.2); }
+    .btn-github:hover { background: rgba(255, 255, 255, 0.15); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; max-width: 1200px; width: 100%; }
+    .feature { background: rgba(255, 255, 255, 0.03); padding: 2rem; border-radius: 12px; backdrop-filter: blur(8px); }
+    .feature-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .feature h3 { margin-bottom: 0.5rem; }
+    .feature p { color: var(--muted); font-size: 0.95rem; }
+    .footer { margin-top: 4rem; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="landing">
+    <div class="hero">
+      <h1>🎮 Premium Tic-Tac-Toe</h1>
+      <p>Beautiful, modern game with glass UI, sound effects, and smart AI opponent</p>
+      <div class="cta">
+        <a href="game.html" class="btn btn-play">Play Now →</a>
+        <a href="https://github.com/yourusername/tictactoe" class="btn btn-github">View Source</a>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">✨</div>
+        <h3>Premium UI</h3>
+        <p>Modern glass-morphism design with smooth animations and gradients</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🎵</div>
+        <h3>Sound Effects</h3>
+        <p>WebAudio synthesized sounds for every interaction, fully mutable</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🤖</div>
+        <h3>Smart AI</h3>
+        <p>Play vs intelligent CPU opponent that adapts to your strategy</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📱</div>
+        <h3>Responsive</h3>
+        <p>Plays perfectly on desktop, tablet, and mobile devices</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <h3>No Dependencies</h3>
+        <p>Pure HTML, CSS, and JavaScript – fast and lightweight</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">♿</div>
+        <h3>Accessible</h3>
+        <p>Keyboard friendly with proper ARIA labels and semantic HTML</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Made with ❤️ | Free to use and modify</p>
+    </div>
+  </div>
+</body>
+</html>
