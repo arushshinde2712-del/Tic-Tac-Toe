@@ -90,9 +90,6 @@ In `script.js`, find this line:
 masterGain.gain.value = 0.18;  // Change 0.18 to any value 0–1
 ```
 
-### Make AI Harder
-In `script.js`, `cpuMove()` function – currently uses smart strategy. Remove the block logic to make it easier.
-
 ## 🌐 Live Demo
 
 **Coming soon!** Deploy using any option above and share your URL.
